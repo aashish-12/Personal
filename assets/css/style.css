@@ -1,0 +1,134 @@
+body{
+  font-family: "Monserrat",sans-serif;
+  text-align: center;
+  background-color: #009DAE;
+  color: #fff;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+/* Navbar */
+.navbar{
+  padding-bottom: 0.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0px 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+/* title */
+#title{
+  text-align: left;
+}
+#title .container-fluid{
+  padding: 3% 15% 0%;
+  
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width: 80%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.biggest-heading{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 0.5;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 6rem 0 0 1.5rem;
+  text-align: left;
+}
+h3{
+  padding: 1rem;
+  text-align: left;
+  margin: 2rem 0rem;
+}
+.link-light{
+  text-decoration: none;
+  color: #ABEDD8;
+}
+/*education*/
+.row{
+  margin-top: 5%;
+}
+.uncoloured-section{
+  background-color: white;
+  color: #009DAE;
+  padding: 100px;
+}
+.card{
+  border-width: 5px; 
+  margin-bottom: 2rem;
+}
+.feature-title{
+  text-align :center;
+  font-weight: bold;
+}
+.card-body{
+  text-align: left;
+}
+
+/* footer */
+footer{
+  background-color: white;
+  color: #009DAE;
+  height: 6rem;
+}
+.bottom-container{
+  height :5rem;
+}
+.footer-link{
+  padding: 3rem 2rem;
+  color:#009DAE;
+}
+p{
+  font-family: cursive;
+  font-size: 15px;
+}
+/*--------------------------------------------------------------
+# Akills
+--------------------------------------------------------------*/
+#skills{
+  margin: 3.5rem;
+}
+.val{
+  color: white;
+}
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.skills .progress-bar-wrap {
+  background: #f2f3f5;
+}
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #71DFE7;
+}
